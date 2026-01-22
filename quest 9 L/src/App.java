@@ -3,6 +3,7 @@ public class App {
         Acao acao= ()->{
             System.out.println("você andou");
         };
+        
         acao.executar();
         acao.cancelar();
     }
